@@ -222,5 +222,47 @@
 // unmounting -> component remove from screen 
 // component removed from screen -> unmount
 
-//! -- Day 8 -- ------ Use effact ------
+//! -- Day 8 -- ------ Use effect ------
+
+//& side effect -> side effect means doing something outside of component or doing something that affect other part of application
+// fetching data from api -> side effect
+// manipulate dom -> side effect
+// setting up subscription -> side effect
+// timers -> side effect
+// component life cycle -> side effect
+// console.log -> side effect   
+// local storage -> side effect
+
+// UseEffact -> A hook that allows us to perform side effect in function components
+
+// Syntax
+// useEffect(() => {
+   // side effect code here 
+// })
+
+
+// component render
+// ui appear on screen -> useEffect run -> side effect code run
+
+// without useEffect -> component render -> ui appear on screen with user effect -> component render -> 
+// ui appear on screen -> useEffect run -> side effect code run
+
+// dependency array -> useEffect(() => {
+   // side effect code here 
+// }, [dependency])
+// dependency array tells react when to run useEffect
+
+
+// no dependency -> run after every render
+// on first render -> run only once
+// on dependency change -> run when dependency change
+// on every update -> run after every update
+// on every state change -> run after every state change
+
+
+// empty dependency array -> run only once when component mount or first render
+// api call
+// initial load
+// authentication 
+// page initialization
 

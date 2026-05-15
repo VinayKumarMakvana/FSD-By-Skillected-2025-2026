@@ -17,7 +17,9 @@ export default function App() {
     console.log("count", count);
   }
 
-
+  useEffect(() => {
+    console.log("useEffect called");
+  }) // count -> dependency array -> useEffect -> call when count change
 
 
   return (
