@@ -1,19 +1,13 @@
-import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
 import Student from './components/Student'
-import image from './assets/Images/image.png'
 import Product from './components/Product'
- 
+import LoginForm from './components/LoginForm'
  
  
  
 function App() {
-  let name = "Skillected"
- 
   const [count, setCount] = useState(0);
   const [text, setText] = useState("");
   const [isDarkMode, setIsDarkMode] = useState(false);
@@ -106,10 +100,8 @@ const users = [
             <p>Batch: {user.batch}</p>
           </div>
         })}
- 
-    </div>
-
-     
+        <LoginForm></LoginForm>
+    </div> 
   )
 }
  

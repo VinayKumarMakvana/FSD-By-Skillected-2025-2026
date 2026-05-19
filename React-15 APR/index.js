@@ -1,5 +1,5 @@
 //w8 2min
-    // recat -> collcttion of components
+    // react -> collection of components
     //component -> reusable piece of code that
     //represents a part of the user interface
     //components -> ui block
@@ -38,11 +38,11 @@
     //props -> information transfer 
     // from one component to another component
     
-    //one componets 
+    //one components 
     //multiple data
  
 //app.jsx (parent component)->
-//  props data-> child componets
+//  props data-> child components
  
 //props behave like object
  
@@ -55,12 +55,12 @@
 //child display image
  
 //card component -> title price description image
-//create Pordoct.jsx componet 
+//create Product.jsx component 
 //jo bhi dikhana hai as a props bhejna hai
  
 //child component use to display data 
 //props -> data transfer from parent to child
-//in parent compomnt called child component and pass value
+//in parent component called child component and pass value
  
 //userClick -> event trigger -> setState -> 
 // component re-render -> ui refresh 
@@ -80,7 +80,7 @@
 //normal variable -> static
 //state variable -> dynamic
  
-//state -> data that chnages and Update ui automatically
+//state -> data that changes and Update ui automatically
  
 //Hooks ->Special function that gives extra power to component
  
@@ -94,7 +94,7 @@
 //setStateVariable -> function to update state
 //initialValue -> initial value of state
  
-//event handelling
+//event handling
 //onClick -> event handler
 //onChange -> event handler
 //onSubmit -> event handler
@@ -107,7 +107,7 @@
 //never modify state directly
 //always use setState function to update state
 //state triggers re-render of component
-//one state -> one resposibility
+//one state -> one responsibility
 //state belongs to component where it is defined
  
  
@@ -134,7 +134,7 @@
 //local storage -> side effect
  
 //useEffect 
-//useeffect is a react hook used to perform side efffects after component
+//useEffect is a react hook used to perform side effects after component
 //rendering
  
     //syntax
@@ -169,7 +169,7 @@
 //page initialization
  
  
-//normal useeffect ->  runs every render
+//normal useEffect ->  runs every render
 //useEffect with empty dependency array -> runs only on first render
 //useEffect with dependency -> runs on first render and when
 //  dependency changes
@@ -181,15 +181,45 @@
  
  
 //Q1 what is react?
+//react is a javascript library for building user interfaces
+//react allows us to create reusable components that can be 
+//composed together to build complex user interfaces
+
 
 //q2 what is jsx?
+//jsx is a syntax extension for javascript that allows us to write
+//html-like code in our javascript files
+//jsx makes it easier to create and visualize the structure of our 
+//components
+
 
 //q3 what is component?
+//a component is a reusable piece of code that defines the structure and behavior of a part of the user interface
+
 
 //q4 what is props?
+//props is short for properties and is a way to pass data from a parent component to a child component in react
+//props allow us to customize the behavior and appearance of a component based on the data passed to it
 
 //q5 what is state?
+//state is a built-in object in react that allows components to manage and update their own data
+//state is used to store data that can change over time and trigger a re-render of the component when it changes
 
 //q6 what is useEffect?
+//useEffect is a react hook used to perform side effects after component rendering
+//useEffect allows us to run code that interacts with the outside world, such as fetching data from an API, manipulating the DOM, or setting up subscriptions, after the component has rendered
+
 
 //q7 what is list rendering?
+//list rendering is a technique in react that allows us to display multiple items in a list format by iterating over an array of data and rendering a component for each item in the array
+
+
+// conditional rendering -> Showing ui based on condition
+// user login -> Dashboard
+// user not login -> Login page
+// data fetching -> loading spinner
+// no data -> no data found
+
+
+// ? API -> bridge between frontend and backend
+// npm install axios
