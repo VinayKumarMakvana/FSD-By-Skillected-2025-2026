@@ -1,5 +1,7 @@
 import  { useState, useEffect } from 'react';
 import axios from 'axios';
+import UserList from './components/UserList';
+import './App.css';
 
 function App() {
 
@@ -35,6 +37,7 @@ function App() {
 
   return (
     <>
+    <UserList />
     {isLoggedIn ? <h1>Welcome to Dashboard</h1> : <h1>Please login to continue</h1>}
       {showMessage && <h1>Hello, Student</h1>}
       {users.map((user)=>(
