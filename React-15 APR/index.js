@@ -223,3 +223,15 @@
 
 // ? API -> bridge between frontend and backend
 // npm install axios
+
+// ROUTING :- means switching one page to another page.
+
+// SPA :- Single Page Application
+// only one html page loads dynamically without refreshing the page
+
+// & routing implementation steps
+// 1. install react router dom
+// npm install react-router-dom
+// 2. create pages -> Home.jsx, About.jsx, Contact.jsx
+// 3. create navbar component -> Navbar.jsx
+// 4. setup routing in main.jsx using BrowserRouter and Routes
