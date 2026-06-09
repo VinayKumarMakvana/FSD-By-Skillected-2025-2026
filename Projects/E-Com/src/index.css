@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-bg-primary text-text-primary font-sans antialiased;
+  }
+}
+
+@layer components {
+  /* Premium Glassmorphism & Effects */
+  .glass {
+    @apply bg-bg-secondary/80 backdrop-blur-md border border-slate-700/50;
+  }
+  
+  .premium-card {
+    @apply bg-bg-secondary rounded-xl border border-slate-700 overflow-hidden transition-all duration-300 hover:-translate-y-1.5 hover:shadow-2xl hover:shadow-black/50 hover:border-accent/30 flex flex-col;
+  }
+
+  .premium-button {
+    @apply flex items-center justify-center gap-2 bg-accent text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-accent-hover hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/40 active:translate-y-0;
+  }
+  
+  .secondary-button {
+    @apply flex items-center justify-center gap-2 bg-bg-tertiary text-white px-4 py-2 rounded-lg font-medium transition-all duration-300 hover:bg-accent hover:-translate-y-0.5 hover:shadow-lg hover:shadow-accent/40;
+  }
+}

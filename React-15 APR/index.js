@@ -221,6 +221,39 @@
 // no data -> no data found
 
 
+/* spa(Single page application)
+   only one html page loads once 
+   react changes components dynamically 
+   without refreshing the page
+    */
+    /* 
+    routing implementing steps 
+    1. npm install react-router-dom
+    2. create a folder named pages and create components for each page
+    3. main.jsx import browser router and wrap the app component with it
+    
+    */
+
+
+//useRef 
+  //access html elements directly
+  //store values without causing re-render component
+
+  //does not re-render component when value changes
+  //used to store values
+  //used for background process
+
+  //custom hooks 
+  //it is a normal javascript function that uses react hooks
+
+  //use -> starting from use keywords
+
+//step1 useCounter 
+//hook create
+//hook returns count, increment and decrement functions
+//component uses return values
+
+
 // ? API -> bridge between frontend and backend
 // npm install axios
 
@@ -235,3 +268,31 @@
 // 2. create pages -> Home.jsx, About.jsx, Contact.jsx
 // 3. create navbar component -> Navbar.jsx
 // 4. setup routing in main.jsx using BrowserRouter and Routes
+
+
+//props drilling
+
+//context api -> notice board (directly data pass)
+//context api  is a feature used to shares data globally 
+//without passing props
+
+// why redux?
+//  
+
+
+// configuration store -> creating a redux store
+
+// reducer -> function that takes current state and action and returns new state  
+
+// slice means small part of store 
+// create slice -> function that generates action creators and action types
+
+// initial state -> initial value of the state 
+
+// reducer -> function that takes current state and action and returns new state
+
+// action -> object that describes what happened
+// action creator -> function that creates an action
+
+
+// button click -> dispatch action -> reducer updates state -> component re-render -> ui update
