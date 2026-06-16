@@ -277,7 +277,6 @@
 //without passing props
 
 // why redux?
-//  
 
 
 // configuration store -> creating a redux store
@@ -290,9 +289,56 @@
 // initial state -> initial value of the state 
 
 // reducer -> function that takes current state and action and returns new state
+// reducer is a pure function that takes current state and action and returns new state based on action type
 
 // action -> object that describes what happened
 // action creator -> function that creates an action
 
 
 // button click -> dispatch action -> reducer updates state -> component re-render -> ui update
+
+// what is store -> store is a central database for react
+
+// provider -> shares redux store with there entire app
+
+// provider -> 
+    // all components wrapped inside provider can access the redux store
+    
+
+// dispatch -> send action to redux store
+
+
+// Browser storage -> local, session, cookies, caches, Indexdb
+
+// cookies -> 4kb -> expires based -> authentication token
+  // browser automatically send cookies to server with every request
+  // document.cookie ="name= vinay"
+
+// local storage -> 5mb -> permanent -> 
+// session storage -> 5mb -> until tab close -> 
+
+// caches -> 100mb -> until clear -> open website -> download failed -> stored in cache -> open again -> load from cache -> faster loading
+  // caches.key().then(data => {
+    // console.log(data)
+  // })
+
+// add cashes
+  // caches,open("my-cache").then(cache => {
+    // cache.add("API or Data")
+  // })
+
+
+// read from caches
+// caches.match("API or Data"/"website").then( response => {
+  // console.log(response)
+  // })
+
+
+  // benefits of caches -> fast loading, reduce internet data usage, offline access, improve performance
+
+
+  // browser cache -> automatic create 
+  // cache storage api -> manual create and manage cache
+
+
+// indexdb -> 1gb and above ->  permanent -> const req = indexedDB.open("Student",1)
