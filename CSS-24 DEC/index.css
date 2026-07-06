@@ -1,0 +1,63 @@
+/* ! universal selector  */
+
+
+/* *{
+    color: blueviolet;
+} */
+
+
+/* ! Tag Name */
+
+
+/* h2{
+    color: rgb(12, 12, 78);
+    background-color: rgb(193, 147, 236);
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 100;
+} */
+
+
+/* p{
+    color: aqua;
+} */
+
+
+/* ! Class */
+
+
+/* .RedPera{
+    color: orange;
+    background-color: blueviolet;
+} */
+
+
+/* ! ID */
+
+
+/* #lag{
+    color: brown;
+} */
+
+
+/* ! Combinator  */
+
+
+/* h2,p{
+    color: gray;
+    background-color: yellow;
+    font-size: 50px;
+} */
+
+
+/* ! Decendent selector */
+
+
+/* div p{
+    color: #d60d0d;
+} */
+ 
+
+/* div>p{
+    color: teal;
+} */
